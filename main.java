@@ -11,7 +11,7 @@ public class Main{
     array.add(new Emp("vicky","CIS"));
     array.add(new Emmp("Aris","SAP"));
     
-    Collections.sort(arr,new sortname());
+    Collections.sort(arr,new Sortbyname());
     for(Emp e:arr)
     {
       System.out.println("Name:"+getEmpName());
